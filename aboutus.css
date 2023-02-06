@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+html{
+    height:100%;
+}
+
+body{
+     
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+}
+/*that was make the nav bar color less background */
+.box{
+    width:auto;
+    height:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}
+/* logo all the css contents  */
+
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:black;    
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.logo img{
+    height:44px;
+    width:45px;
+    border-radius: 30px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    padding:0px 20px;
+
+}
+/* That was apply the css effect on the <a> tag with the hand pointer w=shown in the web */
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* To add an hover effect on the button links */
+
+nav li a:hover{
+    color:#fd5e53;
+    transition:all 0.4s ease 0s;
+
+}
+
+.container{
+    background-color: #53585a;
+    background-size: auto;
+    height:300px;
+    -webkit-text-fill-color: whitesmoke;
+}
+
+/* That was helpful for the adjust all the poisitions of the word on the container */
+.container li{
+    font-size:70px;
+    font-weight:500;
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 110px 200px 200px 630px;
+
+}
+.container a{
+    font-size:25px;
+    font-weight:300;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    
+} 
+.cont{
+    background-size:auto;
+    height:800px;
+
+}
+.cardnew{
+    padding-left: 30px;
+    height:200px;
+   
+}
+.card-header{
+    height:200px;
+}
+.cardtext{
+    height:100px;
+    text-align: center;
+    -webkit-text-fill-color:whitesmoke;
+}
+
+.containernew{
+    margin-top: auto;
+    background-color:#53585a;
+    background-size:auto;
+    height:500px;
+    -webkit-text-fill-color: whitesmoke;
+       
+}
+
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 100px;
+    font-weight:200;
+     
+    list-style: none;
+    height: 80px;
+}
+.privacycheck{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.aboutinfo{
+    padding-left: 1100px;
+    padding-top: 50px;
+    text-decoration: none;
+    display:inline-block;
+    list-style: none;
+}
+.locationmap{
+    list-style:none;
+    padding-left: 670px;
+     
+}
+.aboutphoto img{
+    height:200px;
+}
+.abouttext{
+    list-style: none;
+}
+.maincont{
+    min-width: 100px;
+    padding-top: 80px;
+}
+.card img{
+    height: 600px;
+    transform:translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    box-shadow: 6px 6px 40px 20px #5f4B88FF;
+}
+.card img :hover{
+    box-shadow: 6px 6px 40px 10px #5f4B88FF;
+    transform: translateX(20px);
+}
+.card title{
+    font-size:100px;
+    font-weight: 100;
+}
+.container ::before{
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+    filter:blur(10px)
+}
+.footerinfo{
+    display: flex;
+    padding-left: 250px;
+    padding-top: 100px;
+    height:200px
+}

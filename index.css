@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background:url(../img/work4.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+/*that was make the nav bar color less background */
+.box{
+    width:auto;
+    height:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}
+/* logo all the css contents  */
+
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:black;    
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.logo img{
+    height:44px;
+    width:45px;
+    border-radius: 30px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    padding:0px 20px;
+    font-weight: 300;
+
+}
+/* That was apply the css effect on the <a> tag with the hand pointer w=shown in the web */
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* To add an hover effect on the button links */
+
+nav li a:hover{
+    color:#fd5e53;
+    transition:all 0.4s ease 0s;
+
+}
+.containernew{
+    margin-top: auto;
+    background-color:#53585a;
+    background-size:auto;
+    height:500px;
+    -webkit-text-fill-color: whitesmoke;
+       
+}
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 100px;
+    font-weight:200;
+     
+    list-style: none;
+    height: 80px;
+}
+.privacycheck{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.aboutinfo{
+    padding-left: 1100px;
+    padding-top: 50px;
+    text-decoration: none;
+    display:inline-block;
+    list-style: none;
+}
+.locationmap{
+    list-style:none;
+    padding-left: 670px;
+     
+}
+
+ 
